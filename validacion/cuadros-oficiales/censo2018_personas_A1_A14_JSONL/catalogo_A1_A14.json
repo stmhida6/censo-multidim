@@ -1,0 +1,744 @@
+{
+  "descripcion": "Catálogo de cuadros de personas del XII Censo Nacional de Población y VII de Vivienda 2018, convertido desde los cuadros oficiales de Excel.",
+  "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+  "cuadros": [
+    {
+      "cuadro": "A1",
+      "archivo_origen": "Cuadro A1 - Población total por sexo, grupos quinquenales de edad y área(1).xlsx",
+      "titulo_departamento": "Cuadro A1.1 - Población total censada por sexo, grupos quinquenales de edad y área, según departamento",
+      "titulo_municipio": "Cuadro A1.2 - Población total censada por sexo, grupos quinquenales de edad y área, según municipio",
+      "universo": "Población total censada",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_total_censada",
+          "categorias": null
+        },
+        {
+          "clave": "sexo",
+          "categorias": [
+            "Hombres",
+            "Mujeres"
+          ]
+        },
+        {
+          "clave": "grupo_edad",
+          "categorias": [
+            "0-4",
+            "5-9",
+            "10-14",
+            "15-19",
+            "20-24",
+            "25-29",
+            "30-34",
+            "35-39",
+            "40-44",
+            "45-49",
+            "50-54",
+            "55-59",
+            "60-64",
+            "65-69",
+            "70-74",
+            "75-79",
+            "80-84",
+            "85-89",
+            "90-94",
+            "95-99",
+            "100 o más"
+          ]
+        },
+        {
+          "clave": "area",
+          "categorias": [
+            "Urbana",
+            "Rural"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 598,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A2",
+      "archivo_origen": "Cuadro A2 - Población según parentesco con el jefe(a) del hogar.xlsx",
+      "titulo_departamento": "Cuadro A2.1 - Población total censada según parentesco con el jefe(a) del hogar, según departamento",
+      "titulo_municipio": "Cuadro A2.2 - Población total censada según parentesco con el jefe(a) del hogar, según municipio",
+      "universo": "Población total censada",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_total_censada",
+          "categorias": null
+        },
+        {
+          "clave": "parentesco_jefatura_hogar",
+          "categorias": [
+            "Jefe(a) de hogar",
+            "Esposa(o) o pareja",
+            "Hija(o) o hijastra(o)",
+            "Nuera o yerno",
+            "Nieta o nieto",
+            "Hermana o hermano",
+            "Madre o padre",
+            "Suegra o suegro",
+            "Cuñada o cuñado",
+            "Otra(o) pariente",
+            "No parientes"
+          ]
+        },
+        {
+          "clave": "poblacion_vivienda_colectiva_o_situacion_calle",
+          "categorias": null
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 299,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A3",
+      "archivo_origen": "Cuadro A3 - Población de 10 años y más por estado conyugal(1).xlsx",
+      "titulo_departamento": "Cuadro A3.1 - Población censada de 10 años y más por estado conyugal, según departamento",
+      "titulo_municipio": "Cuadro A3.2 - Población censada de 10 años y más por estado conyugal, según municipio",
+      "universo": "Población censada de 10 años y más",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_censada_10_mas",
+          "categorias": null
+        },
+        {
+          "clave": "estado_conyugal",
+          "categorias": [
+            "Soltera(o)",
+            "Unida(o)",
+            "Casada(o)",
+            "Separada(o)",
+            "Divorciada(o)",
+            "Viuda(o)"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 161,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A4",
+      "archivo_origen": "Cuadro A4 - Población total por lugar de nacimiento y lugar de residencia en abril del 2013(1).xlsx",
+      "titulo_departamento": "Cuadro A4.1 - Población total censada por lugar de nacimiento y lugar de residencia en abril del 2013, según departamento",
+      "titulo_municipio": "Cuadro A4.2 - Población total censada por lugar de nacimiento y lugar de residencia en abril del 2013, según municipio",
+      "universo": "Población total censada",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_total_censada",
+          "categorias": null
+        },
+        {
+          "clave": "lugar_nacimiento",
+          "categorias": [
+            "En el mismo municipio",
+            "En otro municipio",
+            "En otro país",
+            "No declarado"
+          ]
+        },
+        {
+          "clave": "lugar_residencia_abril_2013",
+          "categorias": [
+            "No había nacido",
+            "En el mismo municipio",
+            "En otro municipio",
+            "En otro país",
+            "No declarado"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 230,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A5",
+      "archivo_origen": "Cuadro A5 - Población total por pueblos(2).xlsx",
+      "titulo_departamento": "Cuadro A5.1 - Población total censada por pueblos, según departamento",
+      "titulo_municipio": "Cuadro A5.2 - Población total censada por pueblos, según municipio",
+      "universo": "Población total censada",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_total_censada",
+          "categorias": null
+        },
+        {
+          "clave": "pueblo_pertenencia",
+          "categorias": [
+            "Maya",
+            "Garífuna",
+            "Xinka",
+            "Afrodescendiente / Creole / Afromestizo",
+            "Ladina(o)",
+            "Extranjera(o)"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 161,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A6",
+      "archivo_origen": "Cuadro A6 - Población maya por comunidad lingüística(1).xlsx",
+      "titulo_departamento": "Cuadro A6.1 - Población maya censada por comunidad lingüística, según departamento",
+      "titulo_municipio": "Cuadro A6.2 - Población maya censada por comunidad lingüística, según municipio",
+      "universo": "Población censada del pueblo Maya",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_pueblo_maya",
+          "categorias": null
+        },
+        {
+          "clave": "comunidad_linguistica_maya",
+          "categorias": [
+            "Achi",
+            "Akateka",
+            "Awakateka",
+            "Ch'orti'",
+            "Chalchiteka",
+            "Chuj",
+            "Itza'",
+            "Ixil",
+            "Jakalteko / Popti'",
+            "K'iche'",
+            "Kaqchikel",
+            "Mam",
+            "Mopan",
+            "Poqomam",
+            "Poqomchi'",
+            "Q'anjob'al",
+            "Q'eqchi'",
+            "Sakapulteka",
+            "Sipakapense",
+            "Tektiteka",
+            "Tz'utujil",
+            "Uspanteka"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 529,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A7",
+      "archivo_origen": "Cuadro A7 - Población de 4 años y más por idioma materno(1).xlsx",
+      "titulo_departamento": "Cuadro A7.1 - Población censada de 4 años y más por idioma materno, según departamento",
+      "titulo_municipio": "Cuadro A7.2 - Población censada de 4 años y más por idioma materno, según municipio",
+      "universo": "Población censada de 4 años y más",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_censada_4_mas",
+          "categorias": null
+        },
+        {
+          "clave": "idioma_materno",
+          "categorias": [
+            "Achi",
+            "Akateka",
+            "Awakateka",
+            "Ch'orti'",
+            "Chalchiteka",
+            "Chuj",
+            "Itza'",
+            "Ixil",
+            "Jakalteko / Popti'",
+            "K'iche'",
+            "Kaqchikel",
+            "Mam",
+            "Mopan",
+            "Poqomam",
+            "Poqomchi'",
+            "Q'anjob'al",
+            "Q'eqchi'",
+            "Sakapulteka",
+            "Sipakapense",
+            "Tektiteka",
+            "Tz'utujil",
+            "Uspanteka",
+            "Xinka",
+            "Garífuna",
+            "Español",
+            "Inglés",
+            "Señas",
+            "Otro idioma",
+            "No habla"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 690,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A8",
+      "archivo_origen": "Cuadro A8 - Población de 4 años y más, según dificultades para ver, oír, caminar o subir escaleras, recordar o concentrarse, cuidado personal o comunicarse(1).xlsx",
+      "titulo_departamento": "Cuadro A8.1 - Población censada de 4 años y más, según difcultades para ver, oír, caminar o subir escaleras, recordar o concentrarse, cuidado personal o comuncarse, según departamento",
+      "titulo_municipio": "Cuadro A8.2 - Población censada de 4 años y más, según difcultades para ver, oír, caminar o subir escaleras, recordar o concentrarse, cuidado personal o comuncarse, según municipio",
+      "universo": "Población censada de 4 años y más",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_censada_4_mas",
+          "categorias": null
+        },
+        {
+          "clave": "condicion_dificultad",
+          "categorias": [
+            "Sin dificultad",
+            "Personas con al menos una dificultad",
+            "No declarado"
+          ]
+        },
+        {
+          "clave": "tipo_dificultad",
+          "categorias": [
+            "Ver, aun si usa lentes",
+            "Oír, incluso con aparato",
+            "Caminar o subir escaleras",
+            "Recordar o concentrarse",
+            "Cuidado personal o vestirse",
+            "Comunicarse"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [
+        "Fuente: INE,  XII Censo Nacional de Población y VII de Vivienda - 2018"
+      ],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 230,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A9",
+      "archivo_origen": "Cuadro A9 - Población de 4 años y más por nivel educativo(2).xlsx",
+      "titulo_departamento": "Cuadro A9.1 - Población censada de 4 años y más por nivel educativo, según departamento",
+      "titulo_municipio": "Cuadro A9.2 - Población censada de 4 años y más por nivel educativo, según municipio",
+      "universo": "Población censada de 4 años y más",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_censada_4_mas",
+          "categorias": null
+        },
+        {
+          "clave": "nivel_educativo",
+          "categorias": [
+            "Ninguno",
+            "Preprimaria",
+            "Primaria 1-3",
+            "Primaria 4-5",
+            "Primaria 6",
+            "Básico",
+            "Diversificado",
+            "Licenciatura",
+            "Maestría o Doctorado"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 230,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A10",
+      "archivo_origen": "Cuadro A10 - Población de 4 a 29 años que no asiste a un establecimiento educativo por causa principal de inasistencia(1).xlsx",
+      "titulo_departamento": "Cuadro A10.1 - Población censada de 4 a 29 años que no asiste a un establecimiento educativo por causa principal de inasistencia, según departamento",
+      "titulo_municipio": "Cuadro A10.2 - Población censada de 4 a 29 años que no asiste a un establecimiento educativo por causa principal de inasistencia, según municipio",
+      "universo": "Población censada de 4 a 29 años que no asiste a un establecimiento educativo",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_4_29_no_asiste",
+          "categorias": null
+        },
+        {
+          "clave": "causa_principal_inasistencia",
+          "categorias": [
+            "Falta de dinero",
+            "Tiene que trabajar",
+            "No hay escuela, instituto o universidad",
+            "Los padres / pareja no quieren",
+            "Quehaceres del hogar",
+            "No le gusta / no quiere ir",
+            "Ya terminó sus estudios",
+            "Otra causa",
+            "No declarada"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [
+        "Fuente: INE, XII Censo Nacional de Población y VII de Vivienda - 2018"
+      ],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 230,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A11",
+      "archivo_origen": "Cuadro A11 - Población de 7 años o más por alfabetismo, asistencia escolar y lugar de estudio(1).xlsx",
+      "titulo_departamento": "Cuadro A11.1 - Población censada de 7 años o más por alfabetismo, asistencia escolar y lugar de estudio, según departamento",
+      "titulo_municipio": "Cuadro A11.2 - Población censada de 7 años o más por alfabetismo, asistencia escolar y lugar de estudio, según municipio",
+      "universo": "Población censada de 7 años y más",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_censada_7_mas",
+          "categorias": null
+        },
+        {
+          "clave": "poblacion_por_sexo_7_mas",
+          "categorias": [
+            "Hombres",
+            "Mujeres"
+          ]
+        },
+        {
+          "clave": "poblacion_alfabeta",
+          "categorias": [
+            "Hombres",
+            "Mujeres"
+          ]
+        },
+        {
+          "clave": "asistencia_escolar",
+          "categorias": [
+            "Asiste",
+            "No asiste"
+          ]
+        },
+        {
+          "clave": "lugar_estudio",
+          "categorias": [
+            "En el mismo municipio",
+            "En otro municipio",
+            "En otro país",
+            "No declarado"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 253,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A12",
+      "archivo_origen": "Cuadro A12 - Población de 7 años o más por uso de celular, computadora y_o internet(1).xlsx",
+      "titulo_departamento": "Cuadro A12.1 - Población censada de 7 años o más por uso de celular, computadora y/o internet, según departamento",
+      "titulo_municipio": "Cuadro A12.2 - Población censada de 7 años o más por uso de celular, computadora y/o internet, según municipio",
+      "universo": "Población censada de 7 años y más",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_censada_7_mas",
+          "categorias": null
+        },
+        {
+          "clave": "uso_celular",
+          "categorias": [
+            "Usa",
+            "No usa",
+            "No declarado"
+          ]
+        },
+        {
+          "clave": "uso_computadora",
+          "categorias": [
+            "Usa",
+            "No usa",
+            "No declarado"
+          ]
+        },
+        {
+          "clave": "uso_internet",
+          "categorias": [
+            "Usa",
+            "No usa",
+            "No declarado"
+          ]
+        },
+        {
+          "clave": "combinacion_tecnologias_usadas",
+          "categorias": [
+            "Celular, computadora e internet",
+            "Celular y computadora",
+            "Celular e internet",
+            "Computadora e internet"
+          ]
+        }
+      ],
+      "notas": {
+        "1": "Se excluyen los casos con respuesta no declarada."
+      },
+      "notas_detectadas_excel": [
+        "1 Se excluyen los casos con respuesta no declarada."
+      ],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 322,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A13",
+      "archivo_origen": "Cuadro A13 - Población de 15 años y más, económicamente activa e inactiva, condición de inactividad y lugar de trabajo(1).xlsx",
+      "titulo_departamento": "Cuadro A13.1 - Población censada de 15 años y más, económicamente activa e inactiva, condición de inactividad y lugar de trabajo, según departamento",
+      "titulo_municipio": "Cuadro A13.2 - Población censada de 15 años y más, económicamente activa e inactiva, condición de inactividad y lugar de trabajo, según municipio",
+      "universo": "Población censada de 15 años y más",
+      "unidad": "personas",
+      "grupos": [
+        {
+          "clave": "poblacion_censada_15_mas",
+          "categorias": null
+        },
+        {
+          "clave": "poblacion_economicamente_activa",
+          "categorias": [
+            "Total",
+            "Ocupada",
+            "Desocupada - Cesante",
+            "Desocupada - Aspirante"
+          ]
+        },
+        {
+          "clave": "poblacion_economicamente_inactiva",
+          "categorias": [
+            "Total",
+            "Únicamente estudió",
+            "Rentista o jubilado",
+            "Quehaceres del hogar",
+            "Cuidado de personas",
+            "Cargo comunitario",
+            "Otra",
+            "No declarado"
+          ]
+        },
+        {
+          "clave": "lugar_trabajo",
+          "categorias": [
+            "En el mismo municipio",
+            "En otro municipio",
+            "En otro país",
+            "No declarado"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 391,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    },
+    {
+      "cuadro": "A14",
+      "archivo_origen": "Cuadro A14 - Mujeres de 15 años y más, número de hijos nacidos vivos, número de hijos vivos, y edad de la mujer al nacimiento de su primer hijo(1).xlsx",
+      "titulo_departamento": "Cuadro A14.1 - Mujeres censadas de 15 años y más, número de hijos nacidos vivos, número de hijos vivos, y edad de la mujer al nacimiento de su primer hijo, según departamento",
+      "titulo_municipio": "Cuadro A14.2 - Mujeres censadas de 15 años y más, número de hijos nacidos vivos, número de hijos vivos, y edad de la mujer al nacimiento de su primer hijo, según municipio",
+      "universo": "Mujeres censadas de 15 años y más",
+      "unidad": "mujeres",
+      "grupos": [
+        {
+          "clave": "mujeres_censadas_15_mas",
+          "categorias": null
+        },
+        {
+          "clave": "numero_hijos_nacidos_vivos",
+          "categorias": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5 o más",
+            "No declarado"
+          ]
+        },
+        {
+          "clave": "numero_hijos_vivos_actualmente",
+          "categorias": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5 o más"
+          ]
+        },
+        {
+          "clave": "edad_mujer_primer_hijo",
+          "categorias": [
+            "Antes de 15",
+            "15-17 años",
+            "18-19 años",
+            "20-24 años",
+            "25-29 años",
+            "30 años o más",
+            "No declarado"
+          ]
+        }
+      ],
+      "notas": {},
+      "notas_detectadas_excel": [],
+      "fuentes_detectadas_excel": [],
+      "registros": 363,
+      "niveles": {
+        "pais": 1,
+        "departamento": 22,
+        "municipio": 340
+      },
+      "validacion_geografica": {
+        "comprobaciones_geograficas": 483,
+        "diferencias": 0,
+        "estado": "OK"
+      }
+    }
+  ]
+}

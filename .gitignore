@@ -1,0 +1,61 @@
+# --- Secretos y configuración local ---
+.env
+*.env.local
+
+# --- Datos del INE, CSV exportados, BACPAC y registros (no se versionan) ---
+datos/
+
+# --- .NET / Visual Studio ---
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Resultados de build y publish
+[Dd]ebug/
+[Rr]elease/
+[Pp]ublish/
+artifacts/
+
+# Resultados de pruebas
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Rider / VS Code
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+
+# --- Docker ---
+# (los volúmenes nombrados viven en Docker, no en el repo; nada que ignorar aquí)
+
+# --- SQL Server local / backups ---
+*.bak
+*.mdf
+*.ldf
+
+# --- Sistema operativo ---
+Thumbs.db
+.DS_Store
+
+# --- Power BI ---
+*.pbix
+*.pbit
+
+# --- Análisis en R (etl/r) ---
+etl/r/salidas/
+etl/r/.Rhistory
+etl/r/.RData
+
+# Cuadros oficiales: los consolidados repiten los archivos por cuadro
+validacion/cuadros-oficiales/*/censo2018_*.jsonl
+
+# Prueba de carga: los resultados de cada ejecucion se generan localmente
+pruebas/carga/resultados/*
+!pruebas/carga/resultados/.gitkeep

@@ -1,0 +1,3 @@
+Indice de masculinidad =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[indiceMasculinidad_numerador] ),
+             SUM ( IndicadoresPorMunicipio[indiceMasculinidad_denominador] ) ) * 100

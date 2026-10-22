@@ -1,0 +1,3 @@
+Porcentaje de hogares =
+    DIVIDE ( SUM ( HogaresPorFuenteAgua[hogares] ),
+             CALCULATE ( SUM ( HogaresPorFuenteAgua[hogares] ), REMOVEFILTERS ( HogaresPorFuenteAgua[fuenteAgua] ) ) )

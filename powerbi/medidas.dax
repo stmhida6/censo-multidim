@@ -1,0 +1,43 @@
+// Medidas DAX del tablero. Crear cada una en la tabla indicada (Modelado > Nueva medida).
+//
+// Regla: el tablero NO recalcula indicadores desde datos crudos. Cuando una visualizacion agrupa varias filas de la
+// API (una tarjeta con el total de un departamento que suma sus municipios), el indicador se re-agrega con el
+// numerador y el denominador que devuelve la propia API: razon de sumas, nunca promedio de tasas (tesis 2.2.7).
+
+// ---------------------------------------------------------------- Tabla IndicadoresPorMunicipio
+Tasa global de participacion =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[tasaGlobalParticipacion_numerador] ),
+             SUM ( IndicadoresPorMunicipio[tasaGlobalParticipacion_denominador] ) ) * 100
+
+Tasa de desempleo abierto =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[tasaDesempleoAbierto_numerador] ),
+             SUM ( IndicadoresPorMunicipio[tasaDesempleoAbierto_denominador] ) ) * 100
+
+Tasa de alfabetismo =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[tasaAlfabetismo_numerador] ),
+             SUM ( IndicadoresPorMunicipio[tasaAlfabetismo_denominador] ) ) * 100
+
+Indice de masculinidad =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[indiceMasculinidad_numerador] ),
+             SUM ( IndicadoresPorMunicipio[indiceMasculinidad_denominador] ) ) * 100
+
+// ---------------------------------------------------------------- Tabla Piramide
+// Los hombres se grafican a la izquierda (valores negativos); la etiqueta muestra el valor absoluto con el formato
+// personalizado  #,0;#,0
+Personas piramide =
+    IF ( SELECTEDVALUE ( Piramide[sexo] ) = "Hombre", -SUM ( Piramide[personas] ), SUM ( Piramide[personas] ) )
+
+// ---------------------------------------------------------------- Tabla HogaresPorFuenteAgua
+Porcentaje de hogares =
+    DIVIDE ( SUM ( HogaresPorFuenteAgua[hogares] ),
+             CALCULATE ( SUM ( HogaresPorFuenteAgua[hogares] ), REMOVEFILTERS ( HogaresPorFuenteAgua[fuenteAgua] ) ) )
+
+// ---------------------------------------------------------------- Tabla ConsultaLibre
+// Si la consulta es de un indicador, re-agrega con sus componentes y el multiplicador del catalogo; si es una medida, suma.
+Valor agregado =
+    IF (
+        ISBLANK ( SUM ( ConsultaLibre[Denominador] ) ),
+        SUM ( ConsultaLibre[Valor] ),
+        DIVIDE ( SUM ( ConsultaLibre[Numerador] ), SUM ( ConsultaLibre[Denominador] ) )
+            * LOOKUPVALUE ( CatalogoIndicadores[multiplicador], CatalogoIndicadores[clave], SELECTEDVALUE ( ConsultaLibre[Clave] ) )
+    )

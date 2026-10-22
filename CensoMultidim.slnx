@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/pruebas/">
+    <Project Path="pruebas/Censo.Pruebas.Aplicacion/Censo.Pruebas.Aplicacion.csproj" />
+    <Project Path="pruebas/Censo.Pruebas.BaseDatos/Censo.Pruebas.BaseDatos.csproj" />
+    <Project Path="pruebas/Censo.Pruebas.Integracion/Censo.Pruebas.Integracion.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Censo.Api/Censo.Api.csproj" />
+    <Project Path="src/Censo.Aplicacion/Censo.Aplicacion.csproj" />
+    <Project Path="src/Censo.Dominio/Censo.Dominio.csproj" />
+    <Project Path="src/Censo.Infraestructura/Censo.Infraestructura.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,1033 @@
+[
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B1",
+    "tema": "hogares",
+    "titulo": "Hogares censados por tipo de tenencia de la vivienda, sexo del propietario de la vivienda, y sexo de la persona que toma las principales decisiones en el hogar",
+    "archivo_origen": "Cuadro B1 - Hogares por tipo de tenencia de la vivienda, sexo del propietario de la vivienda, y sexo de la persona que toma las principales decisiones en el hogar(1).xlsx",
+    "hojas": {
+      "departamentos": "B1_1",
+      "municipios": "B1_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tenencia_de_la_vivienda__propia",
+        "label": "Tenencia de la vivienda: Propia",
+        "grupo": "Tenencia de la vivienda",
+        "categoria": "Propia",
+        "encabezado_grupo_original": "Tenencia de la vivienda",
+        "encabezado_categoria_original": "Propia",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tenencia_de_la_vivienda__alquilada",
+        "label": "Tenencia de la vivienda: Alquilada",
+        "grupo": "Tenencia de la vivienda",
+        "categoria": "Alquilada",
+        "encabezado_grupo_original": "Tenencia de la vivienda",
+        "encabezado_categoria_original": "Alquilada",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tenencia_de_la_vivienda__cedida_o_prestada",
+        "label": "Tenencia de la vivienda: Cedida o prestada",
+        "grupo": "Tenencia de la vivienda",
+        "categoria": "Cedida o prestada",
+        "encabezado_grupo_original": "Tenencia de la vivienda",
+        "encabezado_categoria_original": "Cedida o prestada",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tenencia_de_la_vivienda__propiedad_comunal",
+        "label": "Tenencia de la vivienda: Propiedad comunal",
+        "grupo": "Tenencia de la vivienda",
+        "categoria": "Propiedad comunal",
+        "encabezado_grupo_original": "Tenencia de la vivienda",
+        "encabezado_categoria_original": "Propiedad comunal",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tenencia_de_la_vivienda__otra",
+        "label": "Tenencia de la vivienda: Otra",
+        "grupo": "Tenencia de la vivienda",
+        "categoria": "Otra",
+        "encabezado_grupo_original": "Tenencia de la vivienda",
+        "encabezado_categoria_original": "Otra",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_del_propietario_a_de_la_vivienda__hombre",
+        "label": "Sexo del propietario(a) de la vivienda: Hombre",
+        "grupo": "Sexo del propietario(a) de la vivienda",
+        "categoria": "Hombre",
+        "encabezado_grupo_original": "Sexo del propietario(a) de la vivienda",
+        "encabezado_categoria_original": "Hombre",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_del_propietario_a_de_la_vivienda__mujer",
+        "label": "Sexo del propietario(a) de la vivienda: Mujer",
+        "grupo": "Sexo del propietario(a) de la vivienda",
+        "categoria": "Mujer",
+        "encabezado_grupo_original": "Sexo del propietario(a) de la vivienda",
+        "encabezado_categoria_original": "Mujer",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_del_propietario_a_de_la_vivienda__ambos",
+        "label": "Sexo del propietario(a) de la vivienda: Ambos",
+        "grupo": "Sexo del propietario(a) de la vivienda",
+        "categoria": "Ambos",
+        "encabezado_grupo_original": "Sexo del propietario(a) de la vivienda",
+        "encabezado_categoria_original": "Ambos",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_del_propietario_a_de_la_vivienda__no_declarado",
+        "label": "Sexo del propietario(a) de la vivienda: No declarado",
+        "grupo": "Sexo del propietario(a) de la vivienda",
+        "categoria": "No declarado",
+        "encabezado_grupo_original": "Sexo del propietario(a) de la vivienda",
+        "encabezado_categoria_original": "No declarado",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_de_quien_toma_principalmente_las_decisiones_en_el_hogar__hombre",
+        "label": "Sexo de quien toma principalmente las decisiones en el hogar: Hombre",
+        "grupo": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "categoria": "Hombre",
+        "encabezado_grupo_original": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "encabezado_categoria_original": "Hombre",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_de_quien_toma_principalmente_las_decisiones_en_el_hogar__mujer",
+        "label": "Sexo de quien toma principalmente las decisiones en el hogar: Mujer",
+        "grupo": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "categoria": "Mujer",
+        "encabezado_grupo_original": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "encabezado_categoria_original": "Mujer",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_de_quien_toma_principalmente_las_decisiones_en_el_hogar__ambos",
+        "label": "Sexo de quien toma principalmente las decisiones en el hogar: Ambos",
+        "grupo": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "categoria": "Ambos",
+        "encabezado_grupo_original": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "encabezado_categoria_original": "Ambos",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "sexo_de_quien_toma_principalmente_las_decisiones_en_el_hogar__no_declarado",
+        "label": "Sexo de quien toma principalmente las decisiones en el hogar: No declarado",
+        "grupo": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "categoria": "No declarado",
+        "encabezado_grupo_original": "Sexo de quien toma principalmente las decisiones en el hogar",
+        "encabezado_categoria_original": "No declarado",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B2",
+    "tema": "hogares",
+    "titulo": "Hogares censados por fuente principal de agua para consumo",
+    "archivo_origen": "Cuadro B2 - Hogares por fuente principal de agua para consumo(1).xlsx",
+    "hojas": {
+      "departamentos": "B2_1",
+      "municipios": "B2_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__tuberia_en_la_vivienda",
+        "label": "Fuente principal de agua para consumo: Tubería en la vivienda",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Tubería en la vivienda",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Tubería en la vivienda",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__tuberia_fuera_de_la_vivienda",
+        "label": "Fuente principal de agua para consumo: Tubería fuera de la vivienda",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Tubería fuera de la vivienda",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Tubería fuera de la vivienda",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__chorro_publico",
+        "label": "Fuente principal de agua para consumo: Chorro público",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Chorro público",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Chorro público",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__pozo_perforado",
+        "label": "Fuente principal de agua para consumo: Pozo perforado",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Pozo perforado",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Pozo perforado",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__agua_de_lluvia",
+        "label": "Fuente principal de agua para consumo: Agua de lluvia",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Agua de lluvia",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Agua de lluvia",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__rio_o_lago",
+        "label": "Fuente principal de agua para consumo: Río o lago",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Río o lago",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Río o lago",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__manantial_o_nacimiento",
+        "label": "Fuente principal de agua para consumo: Manantial o nacimiento",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Manantial o nacimiento",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Manantial o nacimiento",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__camion_o_tonel",
+        "label": "Fuente principal de agua para consumo: Camión o tonel",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Camión o tonel",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Camión o tonel",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_de_agua_para_consumo__otro",
+        "label": "Fuente principal de agua para consumo: Otro",
+        "grupo": "Fuente principal de agua para consumo",
+        "categoria": "Otro",
+        "encabezado_grupo_original": "Fuente principal de agua para consumo",
+        "encabezado_categoria_original": "Otro",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B3",
+    "tema": "hogares",
+    "titulo": "Hogares censados por tipo y uso de servicio sanitario",
+    "archivo_origen": "Cuadro B3 - Hogares por tipo y uso de servicio sanitario(1).xlsx",
+    "hojas": {
+      "departamentos": "B3_1",
+      "municipios": "B3_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_servicio_sanitario__inodoro_conectado_a_red_de_drenajes",
+        "label": "Tipo de servicio sanitario: Inodoro conectado a red de drenajes",
+        "grupo": "Tipo de servicio sanitario",
+        "categoria": "Inodoro conectado a red de drenajes",
+        "encabezado_grupo_original": "Tipo de servicio sanitario",
+        "encabezado_categoria_original": "Inodoro conectado a red de drenajes",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_servicio_sanitario__inodoro_conectado_a_fosa_septica",
+        "label": "Tipo de servicio sanitario: Inodoro conectado a fosa séptica",
+        "grupo": "Tipo de servicio sanitario",
+        "categoria": "Inodoro conectado a fosa séptica",
+        "encabezado_grupo_original": "Tipo de servicio sanitario",
+        "encabezado_categoria_original": "Inodoro conectado a fosa séptica",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_servicio_sanitario__excusado_lavable",
+        "label": "Tipo de servicio sanitario: Excusado lavable",
+        "grupo": "Tipo de servicio sanitario",
+        "categoria": "Excusado lavable",
+        "encabezado_grupo_original": "Tipo de servicio sanitario",
+        "encabezado_categoria_original": "Excusado lavable",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_servicio_sanitario__letrina_o_pozo_ciego",
+        "label": "Tipo de servicio sanitario: Letrina o pozo ciego",
+        "grupo": "Tipo de servicio sanitario",
+        "categoria": "Letrina o pozo ciego",
+        "encabezado_grupo_original": "Tipo de servicio sanitario",
+        "encabezado_categoria_original": "Letrina o pozo ciego",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_servicio_sanitario__no_tiene",
+        "label": "Tipo de servicio sanitario: No tiene",
+        "grupo": "Tipo de servicio sanitario",
+        "categoria": "No tiene",
+        "encabezado_grupo_original": "Tipo de servicio sanitario",
+        "encabezado_categoria_original": "No tiene",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "uso_del_servicio_sanitario__exclusivo",
+        "label": "Uso del servicio sanitario: Exclusivo",
+        "grupo": "Uso del servicio sanitario",
+        "categoria": "Exclusivo",
+        "encabezado_grupo_original": "Uso del servicio sanitario",
+        "encabezado_categoria_original": "Exclusivo",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "uso_del_servicio_sanitario__compartido",
+        "label": "Uso del servicio sanitario: Compartido",
+        "grupo": "Uso del servicio sanitario",
+        "categoria": "Compartido",
+        "encabezado_grupo_original": "Uso del servicio sanitario",
+        "encabezado_categoria_original": "Compartido",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B4",
+    "tema": "hogares",
+    "titulo": "Hogares censados según tipo de alumbrado, fuente principal de energía para cocinar y disponibilidad de cuarto exclusivo para cocinar",
+    "archivo_origen": "Cuadro B4 - Hogares según tipo de alumbrado, fuente principal de energía para cocinar y disponibilidad de cuarto exclusivo para cocinar(2).xlsx",
+    "hojas": {
+      "departamentos": "B4_1",
+      "municipios": "B4_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_alumbrado__red_de_energia_electrica",
+        "label": "Tipo de alumbrado: Red de energía eléctrica",
+        "grupo": "Tipo de alumbrado",
+        "categoria": "Red de energía eléctrica",
+        "encabezado_grupo_original": "Tipo de alumbrado",
+        "encabezado_categoria_original": "Red de energía eléctrica",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_alumbrado__panel_solar_o_eolico",
+        "label": "Tipo de alumbrado: Panel solar o eólico",
+        "grupo": "Tipo de alumbrado",
+        "categoria": "Panel solar o eólico",
+        "encabezado_grupo_original": "Tipo de alumbrado",
+        "encabezado_categoria_original": "Panel solar o eólico",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_alumbrado__gas_corriente",
+        "label": "Tipo de alumbrado: Gas corriente",
+        "grupo": "Tipo de alumbrado",
+        "categoria": "Gas corriente",
+        "encabezado_grupo_original": "Tipo de alumbrado",
+        "encabezado_categoria_original": "Gas corriente",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_alumbrado__candela",
+        "label": "Tipo de alumbrado: Candela",
+        "grupo": "Tipo de alumbrado",
+        "categoria": "Candela",
+        "encabezado_grupo_original": "Tipo de alumbrado",
+        "encabezado_categoria_original": "Candela",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_alumbrado__otro",
+        "label": "Tipo de alumbrado: Otro",
+        "grupo": "Tipo de alumbrado",
+        "categoria": "Otro",
+        "encabezado_grupo_original": "Tipo de alumbrado",
+        "encabezado_categoria_original": "Otro",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_para_cocinar__gas_propano",
+        "label": "Fuente principal para cocinar: Gas propano",
+        "grupo": "Fuente principal para cocinar",
+        "categoria": "Gas propano",
+        "encabezado_grupo_original": "Fuente principal para cocinar",
+        "encabezado_categoria_original": "Gas propano",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_para_cocinar__lena",
+        "label": "Fuente principal para cocinar: Leña",
+        "grupo": "Fuente principal para cocinar",
+        "categoria": "Leña",
+        "encabezado_grupo_original": "Fuente principal para cocinar",
+        "encabezado_categoria_original": "Leña",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_para_cocinar__electricidad",
+        "label": "Fuente principal para cocinar: Electricidad",
+        "grupo": "Fuente principal para cocinar",
+        "categoria": "Electricidad",
+        "encabezado_grupo_original": "Fuente principal para cocinar",
+        "encabezado_categoria_original": "Electricidad",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_para_cocinar__carbon",
+        "label": "Fuente principal para cocinar: Carbón",
+        "grupo": "Fuente principal para cocinar",
+        "categoria": "Carbón",
+        "encabezado_grupo_original": "Fuente principal para cocinar",
+        "encabezado_categoria_original": "Carbón",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_para_cocinar__gas_corriente",
+        "label": "Fuente principal para cocinar: Gas corriente",
+        "grupo": "Fuente principal para cocinar",
+        "categoria": "Gas corriente",
+        "encabezado_grupo_original": "Fuente principal para cocinar",
+        "encabezado_categoria_original": "Gas corriente",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_para_cocinar__otra",
+        "label": "Fuente principal para cocinar: Otra",
+        "grupo": "Fuente principal para cocinar",
+        "categoria": "Otra",
+        "encabezado_grupo_original": "Fuente principal para cocinar",
+        "encabezado_categoria_original": "Otra",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "fuente_principal_para_cocinar__no_cocina",
+        "label": "Fuente principal para cocinar: No cocina",
+        "grupo": "Fuente principal para cocinar",
+        "categoria": "No cocina",
+        "encabezado_grupo_original": "Fuente principal para cocinar",
+        "encabezado_categoria_original": "No cocina",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "cuarto_exclusivo_para_cocinar__si",
+        "label": "Cuarto exclusivo para cocinar: Sí",
+        "grupo": "Cuarto exclusivo para cocinar",
+        "categoria": "Sí",
+        "encabezado_grupo_original": "Cuarto exclusivo para cocinar",
+        "encabezado_categoria_original": "Sí",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "cuarto_exclusivo_para_cocinar__no",
+        "label": "Cuarto exclusivo para cocinar: No",
+        "grupo": "Cuarto exclusivo para cocinar",
+        "categoria": "No",
+        "encabezado_grupo_original": "Cuarto exclusivo para cocinar",
+        "encabezado_categoria_original": "No",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B5",
+    "tema": "hogares",
+    "titulo": "Equipamiento del hogar",
+    "archivo_origen": "Cuadro B5 - Equipamiento del hogar(2).xlsx",
+    "hojas": {
+      "departamentos": "B5_1",
+      "municipios": "B5_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tecnologia_de_informacion_y_comunicacion__radio",
+        "label": "Tecnología de información y comunicación: Radio",
+        "grupo": "Tecnología de información y comunicación",
+        "categoria": "Radio",
+        "encabezado_grupo_original": "Tecnología de información y comunicación",
+        "encabezado_categoria_original": "Radio",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tecnologia_de_informacion_y_comunicacion__television",
+        "label": "Tecnología de información y comunicación: Televisión",
+        "grupo": "Tecnología de información y comunicación",
+        "categoria": "Televisión",
+        "encabezado_grupo_original": "Tecnología de información y comunicación",
+        "encabezado_categoria_original": "Televisión",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tecnologia_de_informacion_y_comunicacion__computadora",
+        "label": "Tecnología de información y comunicación: Computadora",
+        "grupo": "Tecnología de información y comunicación",
+        "categoria": "Computadora",
+        "encabezado_grupo_original": "Tecnología de información y comunicación",
+        "encabezado_categoria_original": "Computadora",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tecnologia_de_informacion_y_comunicacion__cable",
+        "label": "Tecnología de información y comunicación: Cable",
+        "grupo": "Tecnología de información y comunicación",
+        "categoria": "Cable",
+        "encabezado_grupo_original": "Tecnología de información y comunicación",
+        "encabezado_categoria_original": "Cable",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tecnologia_de_informacion_y_comunicacion__internet",
+        "label": "Tecnología de información y comunicación: Internet",
+        "grupo": "Tecnología de información y comunicación",
+        "categoria": "Internet",
+        "encabezado_grupo_original": "Tecnología de información y comunicación",
+        "encabezado_categoria_original": "Internet",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "electrodomesticos__estufa",
+        "label": "Electrodomésticos: Estufa",
+        "grupo": "Electrodomésticos",
+        "categoria": "Estufa",
+        "encabezado_grupo_original": "Electrodomésticos",
+        "encabezado_categoria_original": "Estufa",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "electrodomesticos__refrigerador",
+        "label": "Electrodomésticos: Refrigerador",
+        "grupo": "Electrodomésticos",
+        "categoria": "Refrigerador",
+        "encabezado_grupo_original": "Electrodomésticos",
+        "encabezado_categoria_original": "Refrigerador",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "electrodomesticos__lavadora",
+        "label": "Electrodomésticos: Lavadora",
+        "grupo": "Electrodomésticos",
+        "categoria": "Lavadora",
+        "encabezado_grupo_original": "Electrodomésticos",
+        "encabezado_categoria_original": "Lavadora",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "agua_e_higiene__tanque_de_agua",
+        "label": "Agua e higiene: Tanque de agua",
+        "grupo": "Agua e higiene",
+        "categoria": "Tanque de agua",
+        "encabezado_grupo_original": "Agua e higiene",
+        "encabezado_categoria_original": "Tanque de agua",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "agua_e_higiene__sistema_de_agua_caliente",
+        "label": "Agua e higiene: Sistema de agua caliente",
+        "grupo": "Agua e higiene",
+        "categoria": "Sistema de agua caliente",
+        "encabezado_grupo_original": "Agua e higiene",
+        "encabezado_categoria_original": "Sistema de agua caliente",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "agua_e_higiene__temazcal_o_tuj",
+        "label": "Agua e higiene: Temazcal o tuj",
+        "grupo": "Agua e higiene",
+        "categoria": "Temazcal o tuj",
+        "encabezado_grupo_original": "Agua e higiene",
+        "encabezado_categoria_original": "Temazcal o tuj",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "medio_de_transporte__moto",
+        "label": "Medio de transporte: Moto",
+        "grupo": "Medio de transporte",
+        "categoria": "Moto",
+        "encabezado_grupo_original": "Medio de transporte",
+        "encabezado_categoria_original": "Moto",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "medio_de_transporte__carro",
+        "label": "Medio de transporte: Carro",
+        "grupo": "Medio de transporte",
+        "categoria": "Carro",
+        "encabezado_grupo_original": "Medio de transporte",
+        "encabezado_categoria_original": "Carro",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B6",
+    "tema": "hogares",
+    "titulo": "Hogares censados por forma principal de eliminación de la basura",
+    "archivo_origen": "Cuadro B6 - Hogares por forma principal de eliminación de la basura(2).xlsx",
+    "hojas": {
+      "departamentos": "B6_1",
+      "municipios": "B6_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "Fuente: INE,  XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__servicio_municipal",
+        "label": "Forma principal de eliminación de la basura: Servicio municipal",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "Servicio municipal",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "Servicio municipal",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__servicio_privado",
+        "label": "Forma principal de eliminación de la basura: Servicio privado",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "Servicio privado",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "Servicio privado",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__la_queman",
+        "label": "Forma principal de eliminación de la basura: La queman",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "La queman",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "La queman",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__la_entierran",
+        "label": "Forma principal de eliminación de la basura: La entierran",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "La entierran",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "La entierran",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__la_tiran_en_rio_quebrada_o_mar",
+        "label": "Forma principal de eliminación de la basura: La tiran en río, quebrada o mar",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "La tiran en río, quebrada o mar",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "La tiran en río, quebrada o mar",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__la_tiran_en_cualquier_lugar",
+        "label": "Forma principal de eliminación de la basura: La tiran en cualquier lugar",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "La tiran en cualquier lugar",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "La tiran en cualquier lugar",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__abonera_o_reciclaje",
+        "label": "Forma principal de eliminación de la basura: Abonera o reciclaje",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "Abonera o reciclaje",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "Abonera o reciclaje",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "forma_principal_de_eliminacion_de_la_basura__otra",
+        "label": "Forma principal de eliminación de la basura: Otra",
+        "grupo": "Forma principal de eliminación de la basura",
+        "categoria": "Otra",
+        "encabezado_grupo_original": "Forma principal de eliminación de la basura",
+        "encabezado_categoria_original": "Otra",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B7",
+    "tema": "hogares",
+    "titulo": "Hogares censados por número de cuartos y dormitorios",
+    "archivo_origen": "Cuadro B7 - Hogares por número de cuartos y dormitorios(2).xlsx",
+    "hojas": {
+      "departamentos": "B7_1",
+      "municipios": "B7_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_cuartos__1",
+        "label": "Número de cuartos: 1",
+        "grupo": "Número de cuartos",
+        "categoria": "1",
+        "encabezado_grupo_original": "Número de cuartos",
+        "encabezado_categoria_original": "1",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_cuartos__2",
+        "label": "Número de cuartos: 2",
+        "grupo": "Número de cuartos",
+        "categoria": "2",
+        "encabezado_grupo_original": "Número de cuartos",
+        "encabezado_categoria_original": "2",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_cuartos__3",
+        "label": "Número de cuartos: 3",
+        "grupo": "Número de cuartos",
+        "categoria": "3",
+        "encabezado_grupo_original": "Número de cuartos",
+        "encabezado_categoria_original": "3",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_cuartos__4",
+        "label": "Número de cuartos: 4",
+        "grupo": "Número de cuartos",
+        "categoria": "4",
+        "encabezado_grupo_original": "Número de cuartos",
+        "encabezado_categoria_original": "4",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_cuartos__5",
+        "label": "Número de cuartos: 5",
+        "grupo": "Número de cuartos",
+        "categoria": "5",
+        "encabezado_grupo_original": "Número de cuartos",
+        "encabezado_categoria_original": "5",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_cuartos__6",
+        "label": "Número de cuartos: 6",
+        "grupo": "Número de cuartos",
+        "categoria": "6",
+        "encabezado_grupo_original": "Número de cuartos",
+        "encabezado_categoria_original": "6",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_cuartos__7_o_mas",
+        "label": "Número de cuartos: 7 o más",
+        "grupo": "Número de cuartos",
+        "categoria": "7 o más",
+        "encabezado_grupo_original": "Número de cuartos",
+        "encabezado_categoria_original": "7 o más",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_dormitorios__1",
+        "label": "Número de dormitorios: 1",
+        "grupo": "Número de dormitorios",
+        "categoria": "1",
+        "encabezado_grupo_original": "Número de dormitorios",
+        "encabezado_categoria_original": "1",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_dormitorios__2",
+        "label": "Número de dormitorios: 2",
+        "grupo": "Número de dormitorios",
+        "categoria": "2",
+        "encabezado_grupo_original": "Número de dormitorios",
+        "encabezado_categoria_original": "2",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_dormitorios__3",
+        "label": "Número de dormitorios: 3",
+        "grupo": "Número de dormitorios",
+        "categoria": "3",
+        "encabezado_grupo_original": "Número de dormitorios",
+        "encabezado_categoria_original": "3",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_dormitorios__4",
+        "label": "Número de dormitorios: 4",
+        "grupo": "Número de dormitorios",
+        "categoria": "4",
+        "encabezado_grupo_original": "Número de dormitorios",
+        "encabezado_categoria_original": "4",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_dormitorios__5",
+        "label": "Número de dormitorios: 5",
+        "grupo": "Número de dormitorios",
+        "categoria": "5",
+        "encabezado_grupo_original": "Número de dormitorios",
+        "encabezado_categoria_original": "5",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_dormitorios__6",
+        "label": "Número de dormitorios: 6",
+        "grupo": "Número de dormitorios",
+        "categoria": "6",
+        "encabezado_grupo_original": "Número de dormitorios",
+        "encabezado_categoria_original": "6",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "numero_de_dormitorios__7_o_mas",
+        "label": "Número de dormitorios: 7 o más",
+        "grupo": "Número de dormitorios",
+        "categoria": "7 o más",
+        "encabezado_grupo_original": "Número de dormitorios",
+        "encabezado_categoria_original": "7 o más",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "B8",
+    "tema": "hogares",
+    "titulo": "Tipología de hogar",
+    "archivo_origen": "Cuadro B8 - Tipología de hogar(2).xlsx",
+    "hojas": {
+      "departamentos": "B8_1",
+      "municipios": "B8_2"
+    },
+    "universo": "Hogares censados",
+    "unidad": "hogares",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "columnas": [
+      {
+        "key": "total_de_hogares_censados",
+        "label": "Total de  hogares censados",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_hogar__unipersonal1",
+        "label": "Tipo de hogar: Unipersonal1",
+        "grupo": "Tipo de hogar",
+        "categoria": "Unipersonal1",
+        "encabezado_grupo_original": "Tipo de hogar",
+        "encabezado_categoria_original": "Unipersonal1",
+        "notas_referenciadas": [
+          "1"
+        ]
+      },
+      {
+        "key": "tipo_de_hogar__nuclear2",
+        "label": "Tipo de hogar: Nuclear2",
+        "grupo": "Tipo de hogar",
+        "categoria": "Nuclear2",
+        "encabezado_grupo_original": "Tipo de hogar",
+        "encabezado_categoria_original": "Nuclear2",
+        "notas_referenciadas": [
+          "2"
+        ]
+      },
+      {
+        "key": "tipo_de_hogar__extendido3",
+        "label": "Tipo de hogar: Extendido3",
+        "grupo": "Tipo de hogar",
+        "categoria": "Extendido3",
+        "encabezado_grupo_original": "Tipo de hogar",
+        "encabezado_categoria_original": "Extendido3",
+        "notas_referenciadas": [
+          "3"
+        ]
+      },
+      {
+        "key": "tipo_de_hogar__compuesto3",
+        "label": "Tipo de hogar: Compuesto3",
+        "grupo": "Tipo de hogar",
+        "categoria": "Compuesto3",
+        "encabezado_grupo_original": "Tipo de hogar",
+        "encabezado_categoria_original": "Compuesto3",
+        "notas_referenciadas": [
+          "4"
+        ]
+      },
+      {
+        "key": "tipo_de_hogar__co_residentes4",
+        "label": "Tipo de hogar: Co-residentes4",
+        "grupo": "Tipo de hogar",
+        "categoria": "Co-residentes4",
+        "encabezado_grupo_original": "Tipo de hogar",
+        "encabezado_categoria_original": "Co-residentes4",
+        "notas_referenciadas": [
+          "5"
+        ]
+      }
+    ],
+    "notas": [
+      {
+        "id": "1",
+        "texto": "Unipersonal: integrado por una sola persona (jefe del hogar), exclusivamente.",
+        "fila_excel": 345
+      },
+      {
+        "id": "2",
+        "texto": "Nuclear: conformado por un núcleo conyugal primario (jefe del hogar y cónyuge sin hijos, o jefe y cónyuge con hijos, o jefe con hijos), exclusivamente.",
+        "fila_excel": 346
+      },
+      {
+        "id": "3",
+        "texto": "Extensa: conformado por una familia nuclear más otros parientes no-nucleares, exclusivamente.",
+        "fila_excel": 347
+      },
+      {
+        "id": "4",
+        "texto": "Compuesta: conformado por una familia nuclear o una familia extensa más otros no-parientes.",
+        "fila_excel": 348
+      },
+      {
+        "id": "5",
+        "texto": "Co-residentes: conformado por el jefe de hogar y otros no parientes.",
+        "fila_excel": 349
+      }
+    ],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  }
+]

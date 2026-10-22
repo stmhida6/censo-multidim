@@ -1,0 +1,16 @@
+flowchart LR
+    P["<b>Pregunta</b><br/>¿Cuál es la tasa de alfabetismo<br/>de hombres y mujeres de cada pueblo<br/>en el departamento de Quiché?"]
+    Q["<b>QUÉ</b> calcular<br/>indicador o medida<br/><code>tasaAlfabetismo</code>"]
+    C["<b>CÓMO</b> agrupar<br/>hasta 6 niveles<br/><code>pueblo</code>, <code>sexo</code>"]
+    A["<b>A QUIÉN</b> limitar<br/>filtros (opcional)<br/><code>departamento = 14</code>"]
+    R["<b>Resultado</b><br/>una fila por grupo:<br/>Maya · Hombre · 71.94 %<br/>Maya · Mujer · 59.13 %<br/>..."]
+    P --> Q
+    P --> C
+    P --> A
+    Q --> R
+    C --> R
+    A --> R
+    classDef parte fill:#eaf2fc,stroke:#2a78d6,color:#0b0b0b
+    classDef res fill:#fdeee6,stroke:#eb6834,color:#0b0b0b
+    class Q,C,A parte
+    class R res

@@ -1,0 +1,14 @@
+**/bin/
+**/obj/
+**/.vs/
+.git/
+.github/
+datos/
+docs/
+db/
+etl/
+pruebas/
+*.md
+.env
+.env.example
+.gitignore

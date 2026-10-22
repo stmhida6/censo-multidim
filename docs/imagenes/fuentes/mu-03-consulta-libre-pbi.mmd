@@ -1,0 +1,12 @@
+flowchart LR
+    A["1. Inicio ><br/>Transformar datos ><br/>Editar parámetros"] --> B["2. Elegir Valor,<br/>EsIndicador,<br/>Dimension1 y 2,<br/>FiltroNivel y FiltroValor"]
+    B --> C["3. Aceptar ><br/>Aplicar cambios"]
+    C --> D["4. Power BI envía<br/>la nueva solicitud<br/>a la API"]
+    D --> E{"¿La API la<br/>acepta?"}
+    E -- "Sí" --> F["5. La tabla y la gráfica<br/>de la página Consulta libre<br/>se actualizan"]
+    E -- "No (400)" --> G["Mensaje: La API rechazo la consulta.<br/>Revisar las claves en el catálogo"]
+    G --> B
+    classDef ok fill:#eaf2fc,stroke:#2a78d6,color:#0b0b0b
+    classDef err fill:#fdeee6,stroke:#eb6834,color:#0b0b0b
+    class F ok
+    class G err

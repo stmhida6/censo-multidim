@@ -1,0 +1,14 @@
+flowchart LR
+    A["Una consulta falla"] --> B{"¿Responde<br/>GET /salud?"}
+    B --->|"503"| B2["La API no llega a la base:<br/>cadena de conexión, usuario CensoApi,<br/>firewall de Azure o base despertando"]
+    B --->|"Sin conexión<br/>o 403"| B1["Docker Desktop cerrado o contenedor detenido:<br/>docker ps · docker compose up -d<br/>En Azure, API detenida (403): reanudar.sh"]
+    B -- "200" --> C{"¿Código de la<br/>consulta?"}
+    C -- "400" --> C1["Clave fuera del catálogo<br/>o filtro mal formado:<br/>leer la lista de errores"]
+    C -- "413" --> C2["Cuerpo de más de 64 KB:<br/>menos valores en el filtro"]
+    C -- "429" --> C3["Límite por minuto superado:<br/>esperar o subir el límite"]
+    C -- "504" --> C4["Consulta de más de 60 s:<br/>más filtros, menos niveles<br/>o más CPU para la base"]
+    C -- "200, pero falla<br/>Power BI" --> C5["Privacidad de Power Query,<br/>credencial Anónima<br/>o UrlApi incorrecta"]
+    classDef err fill:#fdeee6,stroke:#eb6834,color:#0b0b0b
+    classDef chk fill:#eaf2fc,stroke:#2a78d6,color:#0b0b0b
+    class B,C chk
+    class B1,B2,C1,C2,C3,C4,C5 err

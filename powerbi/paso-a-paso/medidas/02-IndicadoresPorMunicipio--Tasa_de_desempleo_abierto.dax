@@ -1,0 +1,3 @@
+Tasa de desempleo abierto =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[tasaDesempleoAbierto_numerador] ),
+             SUM ( IndicadoresPorMunicipio[tasaDesempleoAbierto_denominador] ) ) * 100

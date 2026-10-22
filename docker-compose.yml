@@ -1,0 +1,72 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: censo-sqlserver
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: ${MSSQL_PID:-Developer}
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD}
+      # Limita la memoria que SQL Server reserva internamente (independiente del límite del contenedor).
+      MSSQL_MEMORY_LIMIT_MB: ${DB_MEMORY_LIMIT_MB:-3072}
+    ports:
+      - "${SQLSERVER_PORT:-1433}:1433"
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      # CSV exportados desde R (datos/csv), leídos por BULK INSERT en /datos/csv.
+      - ./datos:/datos:ro
+    # Límite explícito de memoria del contenedor (laptop de 16 GB, compartida con Power BI).
+    mem_limit: ${DB_MEM_LIMIT:-4g}
+    mem_reservation: ${DB_MEM_RESERVATION:-2g}
+    cpus: ${DB_CPU_LIMIT:-2}
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -C -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -Q 'SELECT 1' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+    networks:
+      - censo-net
+
+  api:
+    build:
+      # Contexto en la raíz del repo: el Dockerfile necesita ver también
+      # Censo.Aplicacion, Censo.Dominio y Censo.Infraestructura.
+      context: .
+      dockerfile: src/Censo.Api/Dockerfile
+    container_name: censo-api
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: ${ASPNETCORE_ENVIRONMENT:-Development}
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__CensoDb: "Server=sqlserver,1433;Database=${DB_NAME:-CensoGT2018};User Id=CensoApi;Password=${CLAVE_API};TrustServerCertificate=True"
+      # Solicitudes por minuto por cliente; la prueba de carga lo sube para medir el sistema y no el limitador.
+      LimiteSolicitudes__PorMinuto: ${API_LIMITE_POR_MINUTO:-120}
+    ports:
+      - "${API_HTTP_PORT:-5000}:8080"
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    networks:
+      - censo-net
+
+  # Prueba de carga (tesis, objetivo especifico 4). No arranca con "docker compose up": solo con el perfil "pruebas".
+  # Uso: bash pruebas/carga/ejecutar-carga.sh (ver pruebas/carga/README.md). BASE_URL permite apuntar a otro despliegue.
+  k6:
+    image: grafana/k6:2.3.0
+    profiles: ["pruebas"]
+    environment:
+      BASE_URL: ${K6_BASE_URL:-http://api:8080}
+    volumes:
+      - ./pruebas/carga:/carga
+    working_dir: /carga
+    networks:
+      - censo-net
+
+volumes:
+  sqlserver_data:
+    name: censo2018_sqlserver_data
+
+networks:
+  censo-net:
+    name: censo-net

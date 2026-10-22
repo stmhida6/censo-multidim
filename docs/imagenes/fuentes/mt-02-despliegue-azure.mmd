@@ -1,0 +1,22 @@
+flowchart TB
+    subgraph PREP["1. Requisitos (una vez)"]
+        direction LR
+        P0["Instalación local completa<br/>y verificada"] ~~~ P1["az login --use-device-code<br/>SqlPackage instalado"]
+    end
+    subgraph DESP["2. Despliegue (scripts en orden)"]
+        direction LR
+        S1["01-presupuesto"] --> S2["02-crear-servidor"] --> S3["03-crear-base"] --> S4["04-exportar-bacpac<br/>(local)"] --> S5["05-importar-datos<br/>(unos 55 min)"] --> S6["06-crear-usuario-api"] --> S7["07-validar-datos"] --> S8["08-publicar-api"]
+    end
+    subgraph OPER["3. Operación"]
+        direction LR
+        O1["reanudar"] --> O2["escalar-api B1"] --> O3["en servicio"] --> O4["escalar-api F1"] --> O5["pausar-todo"]
+    end
+    subgraph FIN["4. Retiro"]
+        direction LR
+        F1["estado (costo final)"] --> F2["eliminar-todo --confirmar"]
+    end
+    PREP --> DESP --> OPER --> FIN
+    classDef op fill:#eaf2fc,stroke:#2a78d6,color:#0b0b0b
+    classDef pel fill:#fdeee6,stroke:#eb6834,color:#0b0b0b
+    class O1,O2,O3,O4,O5 op
+    class F2 pel

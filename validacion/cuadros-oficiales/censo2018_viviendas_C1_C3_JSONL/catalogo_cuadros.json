@@ -1,0 +1,479 @@
+[
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "C1",
+    "tema": "viviendas",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "unidad": "viviendas",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "titulo": "Tipo de vivienda censada y condición de ocupación",
+    "archivo_origen": "Cuadro C1 - Tipo de vivienda y condición de ocupación.xlsx",
+    "hojas": {
+      "departamentos": "C1_1",
+      "municipios": "C1_2"
+    },
+    "universo": "Viviendas censadas",
+    "columnas": [
+      {
+        "key": "total_de_viviendas_censadas",
+        "label": "Total de viviendas censadas",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": [
+          "1"
+        ]
+      },
+      {
+        "key": "tipo_de_vivienda_particular__total",
+        "label": "Tipo de vivienda particular: Total",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Total",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Total",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_vivienda_particular__casa_formal",
+        "label": "Tipo de vivienda particular: Casa formal",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Casa formal",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Casa formal",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_vivienda_particular__apartamento",
+        "label": "Tipo de vivienda particular: Apartamento",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Apartamento",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Apartamento",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_vivienda_particular__cuarto_en_casa_de_vecindad",
+        "label": "Tipo de vivienda particular: Cuarto en casa de vecindad",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Cuarto en casa de vecindad",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Cuarto en casa de vecindad",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_vivienda_particular__rancho",
+        "label": "Tipo de vivienda particular: Rancho",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Rancho",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Rancho",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_vivienda_particular__improvisada",
+        "label": "Tipo de vivienda particular: Improvisada",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Improvisada",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Improvisada",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_vivienda_particular__otro",
+        "label": "Tipo de vivienda particular: Otro",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Otro",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Otro",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "tipo_de_vivienda_particular__ignorado",
+        "label": "Tipo de vivienda particular: Ignorado",
+        "grupo": "Tipo de vivienda particular",
+        "categoria": "Ignorado",
+        "encabezado_grupo_original": "Tipo de vivienda particular",
+        "encabezado_categoria_original": "Ignorado",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "viviendas_colectivas",
+        "label": "Viviendas colectivas",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "condicion_de_ocupacion_de_las_viviendas_particulares__ocupada",
+        "label": "Condición de ocupación de las viviendas particulares: Ocupada",
+        "grupo": "Condición de ocupación de las viviendas particulares",
+        "categoria": "Ocupada",
+        "encabezado_grupo_original": "Condición de ocupación de las viviendas particulares",
+        "encabezado_categoria_original": "Ocupada",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "condicion_de_ocupacion_de_las_viviendas_particulares__de_uso_temporal",
+        "label": "Condición de ocupación de las viviendas particulares: De uso temporal",
+        "grupo": "Condición de ocupación de las viviendas particulares",
+        "categoria": "De uso temporal",
+        "encabezado_grupo_original": "Condición de ocupación de las viviendas particulares",
+        "encabezado_categoria_original": "De uso temporal",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "condicion_de_ocupacion_de_las_viviendas_particulares__desocupada",
+        "label": "Condición de ocupación de las viviendas particulares: Desocupada",
+        "grupo": "Condición de ocupación de las viviendas particulares",
+        "categoria": "Desocupada",
+        "encabezado_grupo_original": "Condición de ocupación de las viviendas particulares",
+        "encabezado_categoria_original": "Desocupada",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "condicion_de_ocupacion_de_las_viviendas_particulares__rechazo_total_o_parcial",
+        "label": "Condición de ocupación de las viviendas particulares: Rechazo total o parcial",
+        "grupo": "Condición de ocupación de las viviendas particulares",
+        "categoria": "Rechazo total o parcial",
+        "encabezado_grupo_original": "Condición de ocupación de las viviendas particulares",
+        "encabezado_categoria_original": "Rechazo total o parcial",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [
+      {
+        "id": "1",
+        "texto": "Incluye viviendas particulares y colectivas.",
+        "texto_original": "Inclyue viviendas particulares y colectivas",
+        "filas_excel": [
+          31,
+          345
+        ]
+      }
+    ],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "C2",
+    "tema": "viviendas",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "unidad": "viviendas",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "titulo": "Viviendas particulares censadas por material predominante en las paredes exteriores y en el techo",
+    "archivo_origen": "Cuadro C2 - Viviendas particulares por material predominante en las paredes exteriores y en el techo.xlsx",
+    "hojas": {
+      "departamentos": "C2_1",
+      "municipios": "C2_2"
+    },
+    "universo": "Viviendas particulares censadas",
+    "columnas": [
+      {
+        "key": "total_de_viviendas_particulares_censadas",
+        "label": "Total de viviendas particulares censadas",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__ladrillo",
+        "label": "Material predominante en las paredes exteriores: Ladrillo",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Ladrillo",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Ladrillo",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__block",
+        "label": "Material predominante en las paredes exteriores: Block",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Block",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Block",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__concreto",
+        "label": "Material predominante en las paredes exteriores: Concreto",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Concreto",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Concreto",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__adobe",
+        "label": "Material predominante en las paredes exteriores: Adobe",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Adobe",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Adobe",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__madera",
+        "label": "Material predominante en las paredes exteriores: Madera",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Madera",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Madera",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__lamina_metalica",
+        "label": "Material predominante en las paredes exteriores: Lámina metálica",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Lámina metálica",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Lámina metálica",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__bajareque",
+        "label": "Material predominante en las paredes exteriores: Bajareque",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Bajareque",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Bajareque",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__lepa_palo_o_cana",
+        "label": "Material predominante en las paredes exteriores: Lepa, palo o caña",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Lepa, palo o caña",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Lepa, palo o caña",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__material_de_desecho",
+        "label": "Material predominante en las paredes exteriores: Material de desecho",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Material de desecho",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Material de desecho",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__otro",
+        "label": "Material predominante en las paredes exteriores: Otro",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Otro",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Otro",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_las_paredes_exteriores__ignorado",
+        "label": "Material predominante en las paredes exteriores: Ignorado",
+        "grupo": "Material predominante en las paredes exteriores",
+        "categoria": "Ignorado",
+        "encabezado_grupo_original": "Material predominante en las paredes exteriores",
+        "encabezado_categoria_original": "Ignorado",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__concreto",
+        "label": "Material predominante en el techo: Concreto",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Concreto",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Concreto",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__lamina_metalica",
+        "label": "Material predominante en el techo: Lámina metálica",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Lámina metálica",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Lámina metálica",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__asbesto_o_cemento",
+        "label": "Material predominante en el techo: Asbesto o cemento",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Asbesto o cemento",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Asbesto o cemento",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__teja",
+        "label": "Material predominante en el techo: Teja",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Teja",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Teja",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__paja_palma_o_similar",
+        "label": "Material predominante en el techo: Paja, palma o similar",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Paja, palma o similar",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Paja, palma o similar",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__material_de_desecho",
+        "label": "Material predominante en el techo: Material de desecho",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Material de desecho",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Material de desecho",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__otro",
+        "label": "Material predominante en el techo: Otro",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Otro",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Otro",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_techo__ignorado",
+        "label": "Material predominante en el techo: Ignorado",
+        "grupo": "Material predominante en el techo",
+        "categoria": "Ignorado",
+        "encabezado_grupo_original": "Material predominante en el techo",
+        "encabezado_categoria_original": "Ignorado",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  },
+  {
+    "tipo_registro": "metadata",
+    "cuadro": "C3",
+    "tema": "viviendas",
+    "institucion": "Instituto Nacional de Estadística (INE) de Guatemala",
+    "operacion_estadistica": "XII Censo Nacional de Población y VII de Vivienda 2018",
+    "unidad": "viviendas",
+    "fuente_original": "INE, XII Censo Nacional de Población y VII de Vivienda - 2018",
+    "titulo": "Viviendas particulares censadas por material predominante en el piso",
+    "archivo_origen": "Cuadro C3 - Viviendas particulares por material predominante en el piso.xlsx",
+    "hojas": {
+      "departamentos": "C3_1",
+      "municipios": "C3_2"
+    },
+    "universo": "Viviendas particulares ocupadas",
+    "columnas": [
+      {
+        "key": "total_de_viviendas_censadas",
+        "label": "Total de viviendas censadas",
+        "grupo": null,
+        "categoria": null,
+        "encabezado_grupo_original": null,
+        "encabezado_categoria_original": null,
+        "notas_referenciadas": [
+          "1"
+        ]
+      },
+      {
+        "key": "material_predominante_en_el_piso__ladrillo_ceramico",
+        "label": "Material predominante en el piso: Ladrillo cerámico",
+        "grupo": "Material predominante en el piso",
+        "categoria": "Ladrillo cerámico",
+        "encabezado_grupo_original": "Material predominante en el piso",
+        "encabezado_categoria_original": "Ladrillo cerámico",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_piso__ladrillo_de_cemento",
+        "label": "Material predominante en el piso: Ladrillo de cemento",
+        "grupo": "Material predominante en el piso",
+        "categoria": "Ladrillo de cemento",
+        "encabezado_grupo_original": "Material predominante en el piso",
+        "encabezado_categoria_original": "Ladrillo de cemento",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_piso__ladrillo_de_barro",
+        "label": "Material predominante en el piso: Ladrillo de barro",
+        "grupo": "Material predominante en el piso",
+        "categoria": "Ladrillo de barro",
+        "encabezado_grupo_original": "Material predominante en el piso",
+        "encabezado_categoria_original": "Ladrillo de barro",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_piso__torta_de_cemento",
+        "label": "Material predominante en el piso: Torta de cemento",
+        "grupo": "Material predominante en el piso",
+        "categoria": "Torta de cemento",
+        "encabezado_grupo_original": "Material predominante en el piso",
+        "encabezado_categoria_original": "Torta de cemento",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_piso__parque_o_vinil",
+        "label": "Material predominante en el piso: Parqué o vinil",
+        "grupo": "Material predominante en el piso",
+        "categoria": "Parqué o vinil",
+        "encabezado_grupo_original": "Material predominante en el piso",
+        "encabezado_categoria_original": "Parqué o vinil",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_piso__madera",
+        "label": "Material predominante en el piso: Madera",
+        "grupo": "Material predominante en el piso",
+        "categoria": "Madera",
+        "encabezado_grupo_original": "Material predominante en el piso",
+        "encabezado_categoria_original": "Madera",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_piso__tierra",
+        "label": "Material predominante en el piso: Tierra",
+        "grupo": "Material predominominante en el piso",
+        "categoria": "Tierra",
+        "encabezado_grupo_original": "Material predominominante en el piso",
+        "encabezado_categoria_original": "Tierra",
+        "notas_referenciadas": []
+      },
+      {
+        "key": "material_predominante_en_el_piso__otro",
+        "label": "Material predominante en el piso: Otro",
+        "grupo": "Material predominante en el piso",
+        "categoria": "Otro",
+        "encabezado_grupo_original": "Material predominante en el piso",
+        "encabezado_categoria_original": "Otro",
+        "notas_referenciadas": []
+      }
+    ],
+    "notas": [
+      {
+        "id": "1",
+        "texto": "Viviendas particulares ocupadas.",
+        "texto_original": "Viviendas particulares ocupadas",
+        "filas_excel": [
+          31,
+          345
+        ]
+      }
+    ],
+    "convenciones": {
+      "guion_en_celda": "Se representa como 0 en JSONL y se registra la clave en celdas_originalmente_guion."
+    }
+  }
+]

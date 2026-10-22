@@ -1,0 +1,7 @@
+Valor agregado =
+    IF (
+        ISBLANK ( SUM ( ConsultaLibre[Denominador] ) ),
+        SUM ( ConsultaLibre[Valor] ),
+        DIVIDE ( SUM ( ConsultaLibre[Numerador] ), SUM ( ConsultaLibre[Denominador] ) )
+            * LOOKUPVALUE ( CatalogoIndicadores[multiplicador], CatalogoIndicadores[clave], SELECTEDVALUE ( ConsultaLibre[Clave] ) )
+    )

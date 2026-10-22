@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Dapper" Version="2.1.89" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.*" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="xunit" Version="2.5.3" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Mismo acceso a la base que Censo.Pruebas.BaseDatos: cadena de conexion desde CENSO_PRUEBAS_CONEXION o desde .env -->
+    <Compile Include="..\Censo.Pruebas.BaseDatos\Ayudantes\ConexionPruebas.cs" Link="Ayudantes\ConexionPruebas.cs" />
+    <Compile Include="..\Censo.Pruebas.BaseDatos\Ayudantes\ValoresEsperados.cs" Link="Ayudantes\ValoresEsperados.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Censo.Api\Censo.Api.csproj" />
+    <ProjectReference Include="..\..\src\Censo.Aplicacion\Censo.Aplicacion.csproj" />
+    <ProjectReference Include="..\..\src\Censo.Dominio\Censo.Dominio.csproj" />
+    <ProjectReference Include="..\..\src\Censo.Infraestructura\Censo.Infraestructura.csproj" />
+  </ItemGroup>
+
+</Project>

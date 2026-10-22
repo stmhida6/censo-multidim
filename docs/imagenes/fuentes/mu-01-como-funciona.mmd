@@ -1,0 +1,15 @@
+flowchart LR
+    U(["Usuario"])
+    PBI["<b>Tablero de Power BI</b><br/>páginas fijas y consulta libre"]
+    SW["<b>Navegador (Swagger)</b><br/>consultas de prueba"]
+    API["<b>API de consultas</b><br/>1. Revisa la solicitud contra el catálogo<br/>2. Arma una consulta segura<br/>3. Calcula los indicadores"]
+    BD[("<b>Base de datos</b><br/>Censo 2018")]
+    U --> PBI
+    U --> SW
+    PBI <-- "solicitud y resultado" --> API
+    SW <-- "solicitud y resultado" --> API
+    API <-- "consulta y totales" --> BD
+    classDef cli fill:#eaf2fc,stroke:#2a78d6,color:#0b0b0b
+    classDef api fill:#fdeee6,stroke:#eb6834,color:#0b0b0b
+    class PBI,SW cli
+    class API api

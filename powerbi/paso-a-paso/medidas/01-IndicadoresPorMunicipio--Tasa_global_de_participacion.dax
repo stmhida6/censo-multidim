@@ -1,0 +1,3 @@
+Tasa global de participacion =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[tasaGlobalParticipacion_numerador] ),
+             SUM ( IndicadoresPorMunicipio[tasaGlobalParticipacion_denominador] ) ) * 100

@@ -1,0 +1,3 @@
+Tasa de alfabetismo =
+    DIVIDE ( SUM ( IndicadoresPorMunicipio[tasaAlfabetismo_numerador] ),
+             SUM ( IndicadoresPorMunicipio[tasaAlfabetismo_denominador] ) ) * 100
