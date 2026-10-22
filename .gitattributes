@@ -1,0 +1,10 @@
+# Finales de linea: los scripts deben conservar LF en cualquier sistema (Bash y R fallan con CRLF).
+* text=auto
+*.sh     text eol=lf
+*.R      text eol=lf
+*.py     text eol=lf
+*.sql    text eol=lf
+*.yml    text eol=lf
+Dockerfile text eol=lf
+*.png    binary
+*.xlsx   binary
