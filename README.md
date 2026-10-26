@@ -20,8 +20,8 @@ Los **microdatos del Censo 2018** no se incluyen en el repositorio. Se descargan
 ## Inicio rápido
 
 ```bash
-git clone https://github.com/stmhida6/censo2018-consulta-multidimensional.git
-cd censo2018-consulta-multidimensional
+git clone https://github.com/stmhida6/censo-multidim.git
+cd censo-multidim
 cp .env.example .env                       # 1. definir MSSQL_SA_PASSWORD y CLAVE_API
 # 2. copiar los cuatro .sav del INE a datos/microdatos/
 docker compose up -d sqlserver             # 3. SQL Server (esperar "healthy")
