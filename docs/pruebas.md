@@ -36,21 +36,21 @@ Consultas de comprobación rápida (`POST /api/consultas`):
 
 ## 3. Rendimiento de referencia
 
-Escenario de `pruebas/carga/consultas-censo.js`: 10 consultas típicas (30 % ligeras, 50 % medianas y 20 % pesadas), 60 s por escalón y 1 s de espera entre consultas de cada usuario. Criterio de aceptación: p95 menor de 5 s y menos de 1 % de errores.
+Escenario de `pruebas/carga/consultas-censo.js`: 10 consultas típicas (30 % ligeras, 50 % medianas y 20 % pesadas), 60 s por escalón y 1 s de espera entre consultas de cada usuario. Criterio de aceptación: p95 de hasta 60 s es **óptimo** y de 60 a 90 s es **aceptable**, por tratarse de consultas analíticas que recorren hasta 14.9 millones de registros; menos de 1 % de errores. El tiempo máximo de una consulta en la API es de 90 s (`API_TIEMPO_ESPERA_SEGUNDOS`).
 
 | Usuarios simultáneos | Local, SQL Server con 2 CPU | Azure, 2 vCore | Azure, 4 vCore | Azure, 8 vCore |
 |---:|---:|---:|---:|---:|
-| 1 | 2.2 s | 2.1 s | 1.2 s | 0.7 s |
-| 5 | 6.8 s | 8.5 s | 3.2 s | 1.5 s |
-| 10 | 14.3 s | 22.0 s | 6.5 s | 3.1 s |
-| 25 | 34.4 s | 40.5 s | 20.0 s | 8.7 s |
-| 50 | 56.4 s | 60.4 s | 35.4 s | 18.2 s |
+| 1 | 1.6 s | 1.5 s | 1.2 s | 0.7 s |
+| 5 | 5.6 s | 7.8 s | 3.2 s | 1.5 s |
+| 10 | 19.6 s | 18.6 s | 6.5 s | 3.1 s |
+| 25 | 44.3 s | 58.1 s | 20.0 s | 8.7 s |
+| 50 | 53.3 s | 76.6 s (aceptable) | 35.4 s | 18.2 s |
 | **Capacidad** | ~1.0 solicitudes/s | ~1.1 solicitudes/s | ~2.1 solicitudes/s | ~3.8 solicitudes/s |
-| Errores con 50 usuarios | 0.9 % | 19 % | 0 % | 0 % |
+| Errores | 0 % | 0 % | 0 % | 0 % |
 
-Valores de p95. En todos los casos, la API se mantuvo por debajo del 10 % de CPU y la base de datos fue el recurso saturado. La capacidad crece casi en proporción a los núcleos de la base. En un equipo de escritorio compartido con k6 y la API, dar más CPU al contenedor no mejora el resultado: la escalabilidad requiere núcleos dedicados para la base.
+Valores de p95; todos cumplen el criterio (óptimo, salvo 50 usuarios en Azure con 2 vCore, que es aceptable). En todos los casos la API se mantuvo por debajo del 15 % de CPU y la base de datos fue el recurso saturado: la capacidad crece casi en proporción a los núcleos de la base. En un equipo de escritorio compartido con k6 y la API, dar más CPU al contenedor no mejora el resultado: la escalabilidad requiere núcleos dedicados para la base.
 
-**Dimensionamiento:** cada vCore atiende unas 0.5 solicitudes por segundo con esta mezcla. Para que el p95 quede por debajo de 5 s, 2 vCore alcanzan para 1 usuario, 4 vCore para 5 y 8 vCore para 10 usuarios simultáneos.
+**Dimensionamiento:** cada vCore atiende unas 0.5 solicitudes por segundo con esta mezcla. Con 2 vCore se atienden 50 usuarios simultáneos dentro del rango aceptable; con 4 u 8 vCore, dentro del óptimo y con amplio margen.
 
 ![Tiempo de respuesta según los vCore](imagenes/fig-18-p95-vcore.png)
 

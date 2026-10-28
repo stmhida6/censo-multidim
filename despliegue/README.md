@@ -1,6 +1,6 @@
 # Despliegue en producción (Azure)
 
-Scripts para publicar el sistema en Azure SQL Database y Azure App Service a partir de una instalación local ya cargada y verificada. La guía completa, con requisitos, dimensionamiento, costos y solución de problemas, está en la sección 8 del [manual técnico](../docs/manual-tecnico.md#8-puesta-en-producción-en-azure).
+Scripts para publicar el sistema en Azure SQL Database y Azure App Service a partir de una instalación local ya cargada y verificada. La guía completa, con requisitos, dimensionamiento, costos y solución de problemas, estará en el manual técnico (en preparación); mientras tanto, cada script describe sus pasos en sus comentarios.
 
 Requisitos: Azure CLI con sesión iniciada (`az login --use-device-code`), SqlPackage, .NET SDK 8, Python 3 y el contenedor local `censo-sqlserver` en marcha (los scripts usan su `sqlcmd`). Las variables `AZURE_*` se configuran en `.env`; los scripts generan y guardan ahí el nombre del servidor, la aplicación y las claves.
 

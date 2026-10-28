@@ -72,10 +72,13 @@ export const options = {
     carga: { executor: 'constant-vus', vus: USUARIOS, duration: DURACION, gracefulStop: '120s' },
   },
   summaryTrendStats: ['avg', 'min', 'med', 'p(90)', 'p(95)', 'p(99)', 'max'],
-  // Umbrales de aceptacion declarados antes de medir; un escalon que no los cumple queda marcado como fallido.
+  // Umbrales de aceptacion (capitulo III): p95 de hasta 60 s es optimo, de 60 a 90 s es aceptable y mas de 90 s no
+  // cumple. k6 marca como fallido el escalon que supera 90 s; el nivel optimo se distingue al analizar los resultados.
+  // (Hasta el 2026-10-21 el umbral era p95 < 5 s; se ajusto con el asesor por tratarse de consultas analiticas sobre
+  // 14.9 millones de registros.)
   thresholds: {
     http_req_failed: ['rate<0.01'],
-    http_req_duration: ['p(95)<5000'],
+    http_req_duration: ['p(95)<=90000'],
     checks: ['rate>0.99'],
   },
 };

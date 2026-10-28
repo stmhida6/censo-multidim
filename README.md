@@ -45,8 +45,8 @@ Documentación interactiva de la API: `http://localhost:5000/swagger`.
 
 | Documento | Contenido |
 |---|---|
-| [Manual técnico](docs/manual-tecnico.md) | Requisitos, instalación, verificación, puesta en producción en Azure, operación, mantenimiento y solución de problemas |
-| [Manual de usuario](docs/manual-usuario.md) | Uso del tablero de Power BI y de la API, con ejemplos de cuadros |
+| Manual técnico (en preparación) | Requisitos, instalación, verificación, puesta en producción en Azure, operación, mantenimiento y solución de problemas |
+| Manual de usuario (en preparación) | Uso del tablero de Power BI y de la API, con ejemplos de cuadros |
 | [Pruebas y resultados de referencia](docs/pruebas.md) | Pruebas automáticas, exactitud, conteos esperados y rendimiento |
 | [Catálogo](docs/catalogo.md) | Hechos, dimensiones, medidas, indicadores y operadores consultables |
 | [Convenciones](docs/convenciones.md) | Stack, nombres del esquema y decisiones de diseño |

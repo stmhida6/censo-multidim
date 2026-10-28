@@ -26,6 +26,7 @@ az webapp config connection-string set -g "$RG" -n "$APP" -t SQLAzure \
 az webapp config appsettings set -g "$RG" -n "$APP" --settings \
   ASPNETCORE_ENVIRONMENT=Production \
   LimiteSolicitudes__PorMinuto=120 \
+  BaseDatos__TiempoEsperaSegundos=90 \
   ASPNETCORE_FORWARDEDHEADERS_ENABLED=true \
   --query "[].name" -o tsv
 
